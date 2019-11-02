@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"/>	 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=EDGE">
+		   	
+		<!-- <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"> -->
+		<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+		<script src="https://a1115040996.github.io/MyHTML/js/echarts2_only_map.js"></script>
+
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+		<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=WDQ0Vhi98Vzhgt3oAWvTIQIIA2HBqcIE"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+		
+		<script src="https://webapi.amap.com/maps?v=1.4.15&key=7e2d0f2e8b694b73d74b4a77771f4cbf"></script>
+
+		
+		
+        <title>位置分析</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-left">
+				<img src=<%= require("./img/yiqilogo.png")%>>
+					<span class="span02">	</span>
+				<span class="span01">统一报告平台</span>
+			
+				<span class="span03">集成系统 > 位置分析</span>
+			</div>
+			<div class="header-right clearfix">
+				<span class="span04">数据时间跨度：2019-10-22</span>
+				<span class="span05">数据更新时间：2019-10-28</span>
+			</div>
+		</div>
+		<div class="index-content">
+		<div class="tabs">
+			<ul>
+				<li class="catalogue"><img src=<%= require('./img/catalogue.png')%>>目录</li>
+				<li class="loca"><a class="selected"><img src=<%= require('./img/location.png')%>>位置分析</a></li>
+				<li><a href="/user.html"><img src=<%= require('./img/user.png')%>>用户分析</a></li>
+				<li><img src=<%= require('./img/threefour.png')%>>现场仿真</li>
+				<li><img src=<%= require('./img/four.png')%>>车辆查询</li>
+			</ul>
+		</div>
+		<div class="tabs-content">
+			<div id="tabs-1" class="content-top">	
+					<button type="button" class="btn dropdown-toggle" id="manycars" 
+							data-toggle="dropdown">
+						多车
+						<span class="caret"></span>
+					</button>
+					<button type="button" class="btn dropdown-toggle" id="onecar" 
+							data-toggle="dropdown">
+						单车
+						<span class="caret"></span>
+					</button>
+				<div class="dropdown btnright">
+					<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+							data-toggle="dropdown">
+						全部
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+						<li role="presentation">
+							<a role="menuitem" tabindex="-1" href="#">H5</a>
+						</li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation">
+							<a role="menuitem" tabindex="-1" href="#">H7</a>
+						</li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation">
+							<a role="menuitem" tabindex="-1" href="#">E-HS3</a>
+						</li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation">
+							<a role="menuitem" tabindex="-1" href="#">HS5</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-container location-c">
+				<div class="row">
+					<div class="col-md-9">
+						<div class="row-1 location-01">
+							<div class="echarts-title">基于位置的密度和时段</div>
+						
+								<!-- <div id="detail">
+								<div id="chart11"></div>
+								</div> -->
+							<div class="col-md-6" id="chart01C">
+								<div id="chart01" class="chart">
+								</div>
+							</div>
+							<div class="col-md-6" id="chart02C">
+								<div id="chart02" class="chart">
+								</div>
+							</div>
+						</div>
+						<div class="row content-content-down">
+							<div class="col-md-6">
+								<div class="row-2" id="chart03C">
+									<div class="echarts-title">散点分布图</div>
+									<div id="chart03" class="chart">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row-4" id="chart04C">
+									<div class="echarts-title">热力分布图</div>
+									<div id="chart04" class="chart">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 index-right">
+						<div class="row-5">
+							<div class="index-row5-title">车辆基本信息</div>
+							<div class="index-row5-ul">
+								<ul>
+									<li id="VINLi"></li>
+									<li id="cartype">H5</li>
+									<li>牌照号</li>
+									<li>行驶总里程</li>
+									<!-- <li>当前车速</li>
+									<li>当前位置</li> -->
+								</ul>
+							</div>
+						</div>					
+					</div>   
+				</div>			
+			</div>
+		</div>
+	</div>	
+	</body>
+	<script>
+	
+	</script>
+</html>
