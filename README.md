@@ -12,4 +12,10 @@
             ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/map.png)</br></br></br>
             <strong>4、切换单车选择VIN号（选择具体vin号可以渲染不同的图形，并在车辆基本信息上显示VIN号等）</strong></br></br>
             ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/user-vin.png)</br></br></br>
+            
+             <strong>网页展示（其他版本））</strong></br></br>
+            ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/1.png)</br></br>
+ ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/2.png)</br></br>
+  ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/3.png)</br></br>
+   ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/4.png)</br></br>
 
