@@ -10,8 +10,7 @@
             ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/user.png)</br></br></br>
                <strong>3、充电行为界面（根据具体csv数据文件对页面进行渲染，选择具体vin号可以渲染不同的图形，选择周期、天显示对应的数据图）</strong></br></br>
             ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/charge.png)</br></br></br>
-
-           ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pcartype.png)</br></br>
+           ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pcartype.png)
            ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pvin.png)
            ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/rili.png)
            ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pweek.png)
