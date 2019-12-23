@@ -54,7 +54,6 @@
            ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc5k2.png)</br></br>
            <strong>用户页C5放大字述</strong></br>
            ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc6k.png)</br></br>
-
            <strong>平均充电次数图</strong></br>
            ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/ccishu.png)</br></br>
             <strong>充电SOC范围占比</strong></br>
