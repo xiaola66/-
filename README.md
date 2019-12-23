@@ -20,9 +20,10 @@
            ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/rili.png)</br></br>
            <strong>选周期</strong></br>
            ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pweek.png)</br></br>
+           <strong>选天</strong></br>
+           ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pday.png)</br></br>
             <strong>关闭清空按钮</strong></br>
            ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/closewd.png)</br></br>
-           <strong>选天</strong></br>
             <strong>没有数据图信息时，提示框</strong></br>
            ![选天](https://github.com/xiaola66/vehicle-analysis/blob/master/img/unonetishi.png)</br></br>
             <strong>右侧显示车辆信息（根据选择条件显示）</strong></br>
