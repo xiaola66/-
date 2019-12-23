@@ -10,11 +10,67 @@
             ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/user.png)</br></br></br>
                <strong>3、充电行为界面（根据具体csv数据文件对页面进行渲染，选择具体vin号可以渲染不同的图形，选择周期、天显示对应的数据图）</strong></br></br>
             ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/charge.png)</br></br></br>
+            <strong>选车型</strong></br>
            ![选车型](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pcartype.png)</br></br>
+           <strong>选VIN</strong></br>
            ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pvin.png)</br></br>
+            <strong>输入框选VIN（模糊查询）</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/vininput.png)</br></br>
+           <strong>日历：</strong></br>
            ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/rili.png)</br></br>
+           <strong>选周期</strong></br>
            ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pweek.png)</br></br>
-           ![选天](https://github.com/xiaola66/vehicle-analysis/blob/master/img/pday.png)</br></br>
+            <strong>关闭清空按钮</strong></br>
+           ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/closewd.png)</br></br>
+           <strong>选天</strong></br>
+            <strong>没有数据图信息时，提示框</strong></br>
+           ![选天](https://github.com/xiaola66/vehicle-analysis/blob/master/img/unonetishi.png)</br></br>
+            <strong>右侧显示车辆信息（根据选择条件显示）</strong></br>
+           ![选车型](https://github.com/xiaola66/vehicle-analysis/blob/master/img/rightinfo.png)</br></br>
+           <strong>位置页C1放大：</strong></br>
+           ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/lc1k.png)</br></br>
+           <strong>位置页C2滑动手柄</strong></br>
+           ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/lc2bottom.png)</br></br>
+           <strong>位置页C2字述1</strong></br>
+           ![选天](https://github.com/xiaola66/vehicle-analysis/blob/master/img/lc2tllotip2.png)</br></br>
+            <strong>位置页C2字述2</strong></br>
+           ![选车型](https://github.com/xiaola66/vehicle-analysis/blob/master/img/lc2tllotip.png)</br></br>
+           <strong>位置页C3选择“工作日”、“周末”</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/lc3p.png)</br></br>
+            <strong>用户页C1放大</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc1k.png)</br></br>
+           <strong>用户页C1字述</strong></br>
+           ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc1tip.png)</br></br>
+           <strong>用户页C2放大</strong></br>
+           ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc2k.png)</br></br>
+           <strong>用户页C2字述</strong></br>
+           ![选天](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc2tip.png)</br></br>
+            <strong>用户页C3放大、字述</strong></br>
+           ![选车型](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc3k.png)</br></br>
+           <strong>用户页C4放大</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc4k.png)</br></br>
+           <strong>用户页C5放大字述：</strong></br>
+           ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc5k1.png)</br>
+           ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc5k2.png)</br></br>
+           <strong>用户页C5放大字述</strong></br>
+           ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/uc6k.png)</br></br>
+
+           <strong>平均充电次数图</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/ccishu.png)</br></br>
+            <strong>充电SOC范围占比</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/cbing.png)</br></br>
+            <strong>充电频繁度城市图</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/ccity.png)</br></br>
+           <strong>单次出行里程图</strong></br>
+           ![日历展示](https://github.com/xiaola66/vehicle-analysis/blob/master/img/cdan.png)</br></br>
+           <strong>充电SOC分布7月快充</strong></br>
+           ![选周期](https://github.com/xiaola66/vehicle-analysis/blob/master/img/csoc1.png)</br></br>
+           <strong>充电SOC分布7月慢充</strong></br>
+           ![选天](https://github.com/xiaola66/vehicle-analysis/blob/master/img/csoc2.png)</br></br>
+            <strong>充电SOC分布8月快充</strong></br>
+           ![选车型](https://github.com/xiaola66/vehicle-analysis/blob/master/img/csoc3.png)</br></br>
+           <strong>充电SOC分布8月慢充</strong></br>
+           ![选VIN](https://github.com/xiaola66/vehicle-analysis/blob/master/img/csoc4.png)</br></br>
 
 <strong>网页展示（其他版本）</strong></br></br>
             ![image](https://github.com/xiaola66/vehicle-analysis/blob/master/img/1.png)</br></br>
