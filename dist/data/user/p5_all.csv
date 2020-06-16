@@ -1,8 +1,0 @@
-name,value,position,veh_series,avgOStime_min,avgOSmileage_km
-0~50%,309586,inside,HS5,6.38,816.3
-50%+,9302,inside,HS5,33.73,-88843.21
-10%~20%,108924,outside,HS5,5.67,81.06
-70%+,3552,outside,HS5,39.82,-79417.33
-0~10%,118919,outside,HS5,1.35,51.89
-50%~70%,5750,outside,HS5,29.97,-94665.95
-20%~50%,81743,outside,HS5,14.65,2908.09
